@@ -170,15 +170,15 @@ setInterval(() => {
 	block4.style.backgroundColor = getRandomColor(green)
 }, 3000)
 /*-----------------------------------------------------------------*/
-// document.addEventListener('keydown', (event) => {
-// 	if (event.key === 'ArrowUp') {
-// 		goUp()
-// 	} else if (event.key === 'ArrowDown') {
-// 		goDown()
-// 	} else if (event.key === 'ArrowLeft') {
-// 		goLeft()
-// 	} else if (event.key === 'ArrowRight') {
-// 		goRight()
-// 	}
-// })
+document.addEventListener('keydown', (event) => {
+	if (event.key === 'ArrowUp') {
+		goUp()
+	} else if (event.key === 'ArrowDown') {
+		goDown()
+	} else if (event.key === 'ArrowLeft') {
+		goLeft()
+	} else if (event.key === 'ArrowRight') {
+		goRight()
+	}
+})
 /*-----------------------------------------------------------------*/
